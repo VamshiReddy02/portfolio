@@ -1,0 +1,54 @@
+.experienceItem {
+  display: flex;
+  gap: 20px;
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.duration {
+  flex: 1;
+  font-size: 1rem;
+  display: flex;
+  align-items: flex-start;
+  color: #bbbbbb;
+  font-weight: bold;
+  text-align: right;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.details {
+  flex: 4;
+  text-align: left;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.company {
+  font-weight: normal;
+  color: #cccccc;
+}
+
+.description {
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.tags {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.tag {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  color: #e0e0e0;
+  border: 1px solid #444;
+}

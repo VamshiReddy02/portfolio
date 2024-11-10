@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+}
+
+.lightHeader {
+  border: 1px solid black; 
+  border-radius: 9999px;
+}
+
+.navbar {
+  display: flex;
+  gap: 1rem;
+  padding: 0.3rem 1rem;
+  border-radius: 9999px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  font-size: 0.875rem;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 9999px;
+  transition: background-color 200ms ease-in-out;
+  position: relative;
+}
+
+.navItem:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 9999px;
+}
+
+.lightText {
+  color: black;
+}
