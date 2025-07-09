@@ -1,4 +1,3 @@
-/* Default (light theme) */
 .experienceItem {
   display: flex;
   gap: 20px;
@@ -14,7 +13,7 @@
   font-weight: bold;
   text-align: right;
   font-family: 'Roboto Mono', monospace;
-  color: #444; /* light default */
+  color: #444;
 }
 
 .details {
@@ -57,7 +56,6 @@
   background: #f0f0f0;
 }
 
-/* === Dark theme overrides === */
 body[data-theme='dark'] .duration {
   color: #bbbbbb;
 }
