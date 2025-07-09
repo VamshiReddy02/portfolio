@@ -1,5 +1,5 @@
 import styles from './HeroStyles.module.css'
-import heroImg from '../../assets/Design uten navn.png'
+import heroImg from '../../assets/heroImg.jpg'
 import sun from '../../assets/sun.svg'
 import moon from '../../assets/moon.svg'
 import twitterLight from '../../assets/twitter-light.svg'
@@ -32,9 +32,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Vamshi
-          <br />
-          Reddy
+          Vamshi  Reddy
         </h1>
         <h2>Fullstack Developer</h2>
         <span>
@@ -48,9 +46,6 @@ function Hero() {
             <img src={linkedinIcon} alt="linkedin icon" />
           </a>
         </span>
-        <p className={styles.discription}>
-          Fun fact about me I love to contribute open source projects, check out my github profile
-        </p>
         <a href={CV} target="_blank" rel="noopener noreferrer">
           <button className="hover">Resume</button>
         </a>
